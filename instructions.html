@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+ <title>Instructions - ZeroNet APP plugin</title>
+ <meta charset="utf-8" />
+ <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+ <link rel="stylesheet" href="css/all.css?rev={rev}" />
+</head>
+
+
+<header>Instructions - ZeroNet APP plugin</header>
+<h1>AppPlugin currently is not too automated, then you need to do some manual work</h1>
+<p>If you want to turn an zite into an WWW site or mobile/desktop app, then you will need to create a new ZeroNet installation.</p>
+<p>And on this brand new installation, your zite will be the main zite, acting like ZeroHello. Only this zite is enabled, and users can't download other zites, but can download new user data/optional files from the main zite (that is the site/app).</p>
+<p>But as master of this ZeroNet installation, you can manually add merged zites/hubs and ID/certificate providers, that are needed for main zite.</p>
+<br/>
+<p>Follow all those instructions while your new ZeroNet installation isn't running.</p>
+<h2>Turn on Multiuser plugin</h2>
+<ol>
+<li>Go to [your-zeronet-new-installation-path]\core\plugins</li>
+<li>Find disabled-Multiuser folder</li>
+<li>Rename it by removing the disabled- prefix</li>
+</ol>
+<h3>[Optional] Turn your app into a "super peer" (tracker)</h3>
+<p>If you want to help ZeroNet, you can be a network tracker</p>.
+<p>You need to have an fixed IPv4/IPv6 address or use CJDNS address.</p>
+<ol>
+<li>Go to [your-zeronet-new-installation-path]\core\plugins</li>
+<li>Find disabled-Bootstrapper folder</li>
+<li>Rename it by removing the disabled- prefix</li>
+</ol>
+<h2>Choose your main zite and turn it into the start page (replacing ZeroHello)</h2>
+</body>
+</html>
