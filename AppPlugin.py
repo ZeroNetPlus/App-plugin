@@ -1,6 +1,7 @@
 from Plugin import PluginManager
 from Translate import Translate
 from cStringIO import StringIO
+from Config import config
 
 
 if "_" not in locals():
